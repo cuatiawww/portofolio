@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,119 +8,130 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <main class="container">
-        <header class="header">
-            <h1>Yosua Elwistio Malau.</h1>
-            <h2>Full Stack Developer</h2>
-            <p class="bio">I create art that is both aesthetically pleasing and emotionally relevant, I also develop user interfaces that are intuitive and user-friendly.</p>
-        </header>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator"></div>
 
-        <section class="services">
-            <h3 class="section-title">SERVICES</h3>
-            
-            <div class="service-item">
-                <div class="service-header">
-                    <span class="icon">⚡</span>
-                    <h4>UI/UX Design</h4>
-                    <button class="expand-btn">+</button>
+    <!-- Background Elements -->
+    <div class="background-elements">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="dots-pattern"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">Yosua Elwistio Malau</span>
+            </div>
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Palugada Developer</h1>
+                <p>An enthusiastic Information Systems student with a proven track record in programming, product design, user research, and project management.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Get in Touch
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-outline">
+                        View Projects
+                        <i class="fas fa-eye"></i>
+                    </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="service-item">
-                <div class="service-header">
-                    <span class="icon">🚀</span>
-                    <h4>Development</h4>
-                    <button class="expand-btn">+</button>
-                </div>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-subtitle">Showcasing some of my best work</div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
             </div>
-
-            <div class="service-item">
-                <div class="service-header">
-                    <span class="icon">🎨</span>
-                    <h4>Product Design</h4>
-                    <button class="expand-btn">+</button>
-                </div>
-            </div>
-
-            <div class="service-item">
-                <div class="service-header">
-                    <span class="icon">💻</span>
-                    <h4>Full Stack</h4>
-                    <button class="expand-btn">+</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="case-studies">
-            <h3 class="section-title">CASE STUDIES</h3>
             <div class="projects-grid">
-                <article class="project-card">
-                    <img src="/api/placeholder/400/300" alt="HPP Application">
-                    <h4>HPP Application</h4>
-                    <div class="tags">
-                        <span>Flutter</span>
-                        <span>Firebase</span>
-                        <span>UI/UX</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <img src="/api/placeholder/400/300" alt="Tax Education Game">
-                    <h4>Tax Education Game</h4>
-                    <div class="tags">
-                        <span>HTML5</span>
-                        <span>JavaScript</span>
-                        <span>Game Dev</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <img src="/api/placeholder/400/300" alt="CubMu Platform">
-                    <h4>CubMu Platform</h4>
-                    <div class="tags">
-                        <span>Research</span>
-                        <span>UI/UX</span>
-                        <span>Analysis</span>
-                    </div>
-                </article>
+                <!-- Projects will be dynamically inserted here -->
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="journal">
-            <h3 class="section-title">JOURNAL</h3>
-            <div class="articles-grid">
-                <article class="article-card">
-                    <img src="/api/placeholder/400/200" alt="Development Article">
-                    <p class="date">Mar 15, 2024</p>
-                    <h4>How to build scalable web applications</h4>
-                    <a href="#" class="read-more">Read more</a>
-                </article>
-
-                <article class="article-card">
-                    <img src="/api/placeholder/400/200" alt="Design Article">
-                    <p class="date">Mar 10, 2024</p>
-                    <h4>The importance of user research in design</h4>
-                    <a href="#" class="read-more">Read more</a>
-                </article>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="section-subtitle">My professional journey</div>
+            <div class="timeline">
+                <!-- Experience items will be dynamically inserted here -->
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer class="contact">
-            <div class="contact-content">
-                <h2>Let's create your next big idea.</h2>
-                <a href="mailto:yosuaelw@gmail.com" class="cta-button">Get in touch</a>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-subtitle">Technologies I work with</div>
+            <div class="skills-grid">
+                <!-- Skills will be dynamically inserted here -->
             </div>
-            <div class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">Case Studies</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Terms</a>
-            </div>
-            <p class="copyright">© 2024 Yosua Elwistio Malau</p>
-        </footer>
-    </main>
+        </div>
+    </section>
 
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="section-subtitle">Professional certificates and achievements</div>
+            <div class="certifications-grid">
+                <!-- Will be dynamically inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">I'm always open to discussing new projects and opportunities</p>
+            <div class="social-links">
+                <a href="mailto:yosuaelw@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yosua Elwistio Malau. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
