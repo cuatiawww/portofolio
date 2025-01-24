@@ -2,22 +2,78 @@ const projects = [
     {
         title: "HPP Application",
         description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp1.png",
         tags: ["Flutter", "Firebase", "UI/UX"],
         category: "development"
     },
     {
-        title: "Tax Education Game",
-        description: "Interactive HTML5 game designed to teach tax literacy to young children using engaging gameplay mechanics.",
-        image: "/api/placeholder/400/300",
-        tags: ["HTML5", "JavaScript", "Game Dev"],
+        title: "CG Platform",
+        description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
+        image: "../assets/cgapps.png",
+        tags: ["ClickUp", "BRD", "UI/UX"],
+        category: "design"
+    },
+    {
+        title: "Buckery.id Web",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/hpp.png",
+        tags: ["NextJs", "Python Django", "Typescript", "PostgreSql"],
         category: "development"
+    },
+    {
+        title: "AOG bootcamp Web",
+        description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
+        image: "../assets/aog1.png",
+        tags: ["Canva", "UI/UX"],
+        category: "design"
     },
     {
         title: "CubMu Platform",
         description: "Comprehensive user research and platform optimization project improving customer experience.",
-        image: "/api/placeholder/400/300",
+        image: "../assets/cubmu.png",
         tags: ["Research", "UI/UX", "Analysis"],
+        category: "design"
+    },
+    {
+        title: "Tax Education Game",
+        description: "Interactive HTML5 game designed to teach tax literacy to young children using engaging gameplay mechanics.",
+        image: "../assets/hpp.png",
+        tags: ["HTML5", "JavaScript", "Game Dev"],
+        category: "development"
+    },
+    {
+        title: "Data Transformation",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/data.png",
+        tags: ["IBM RPA", "BRD", "Python", "Hackathon"],
+        category: "development"
+    },
+    {
+        title: "ConcertKey Platform",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/concert.png",
+        tags: ["Design Thinking", "Research", "UI/UX", "Framer"],
+        category: "design"
+    },
+    {
+        title: "DietLite Application",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/dietlite.png",
+        tags: ["Research", "UI/UX", "User "],
+        category: "design"
+    },
+    {
+        title: "Social Media Mixue",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/mixue.png",
+        tags: ["Canva", "Photoshop", "Capcut"],
+        category: "design"
+    },
+    {
+        title: "AOG Connecting Time",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/hpp.png",
+        tags: ["Canva", "Photoshop", "Capcut"],
         category: "design"
     }
 ];
@@ -25,7 +81,7 @@ const projects = [
 const experiences = [
     {
         role: "IT Developer",
-        company: "Tax Center",
+        company: "Tax Center Gunadarma",
         period: "May 2024 - Present",
         description: "Leading development of mobile applications and educational games, focusing on tax education and UMKM support.",
         achievements: [
@@ -36,9 +92,21 @@ const experiences = [
         ]
     },
     {
+        role: "UI/UX Designer",
+        company: "Rose of Sharon Church Jakarta",
+        period: "Mar 2024 - Present",
+        description: "Leading the design efforts for church digital platforms.",
+        achievements: [
+            "Gathered client requirements for design solutions",
+            "Designed low to high fidelity displays for GMS Application",
+            "Collaborated with developers on implementation",
+            "Ensured design alignment with user experience goals"
+        ]
+    },
+    {
         role: "Admin & Social Media",
         company: "Mixue Tuparev Karawang",
-        period: "Sept 2022 - present",
+        period: "Sept 2022 - Dec 2024",
         description: "Managed administrative tasks and social media presence for the branch location.",
         achievements: [
             "Prepared detailed monthly reports on employee attendance and operations",
@@ -69,18 +137,6 @@ const experiences = [
             "Led user interviews and expert consultations",
             "Designed and prototyped MVP using Figma",
             "Validated user interest through Website Landing Page"
-        ]
-    },
-    {
-        role: "UI/UX Designer",
-        company: "Rose of Sharon Church Jakarta",
-        period: "Mar 2024 - Present",
-        description: "Leading the design efforts for church digital platforms.",
-        achievements: [
-            "Gathered client requirements for design solutions",
-            "Designed low to high fidelity displays for GMS Application",
-            "Collaborated with developers on implementation",
-            "Ensured design alignment with user experience goals"
         ]
     },
     {
@@ -194,42 +250,42 @@ const certifications = [
         title: "Software Engineering Python Web Developer",
         issuer: "Softuni Indonesia",
         date: "2025",
-        image: "/api/placeholder/400/300", 
+        image: "../assets/hpp.png", 
         link: "#" 
     },
     {
         title: "Excel Basics for Data Analysis",
         issuer: "IBM (Coursera)",
         date: "2024",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp.png",
         link: "#"
     },
     {
         title: "Junior Web Developer",
         issuer: "Digital Talent Scholarship",
         date: "2023",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp.png",
         link: "#"
     },
     {
         title: "Product Design Scholarship",
         issuer: "TierUp Academy",
         date: "2023",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp.png",
         link: "#"
     },
     {
         title: "Google IT Support",
         issuer: "Coursera",
         date: "2023",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp.png",
         link: "#"
     },
     {
         title: "JavaScript Programming Basics",
         issuer: "Dicoding Indonesia",
         date: "2023",
-        image: "/api/placeholder/400/300",
+        image: "../assets/hpp.png",
         link: "#"
     }
 ];
