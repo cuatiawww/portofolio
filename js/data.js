@@ -1,84 +1,84 @@
 const projects = [
     {
         title: "HPP Application",
-        description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
+        description: "Mobile application helping small businesses (UMKM) manage production costs effectively. Built with Flutter and Firebase for cross-platform performance.",
         image: "../assets/hpp1.png",
         tags: ["Flutter", "Firebase", "UI/UX"],
         category: "development"
     },
     {
         title: "CG Platform",
-        description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
+        description: "Business requirements documentation and UI/UX design for a comprehensive project management platform integrated with ClickUp.",
         image: "../assets/cgapps.png",
         tags: ["ClickUp", "BRD", "UI/UX"],
         category: "design"
     },
     {
         title: "Buckery.id Web",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Full-stack web application built with Next.js frontend and Django backend, featuring a robust PostgreSQL database for data management.",
         image: "../assets/hpp.png",
         tags: ["NextJs", "Python Django", "Typescript", "PostgreSql"],
         category: "development"
     },
     {
         title: "AOG bootcamp Web",
-        description: "Mobile application supporting UMKM in cost management. Developed with Flutter and Firebase for optimal performance.",
+        description: "Design and visual content creation for a bootcamp program website, focusing on user experience and engaging visual elements.",
         image: "../assets/aog1.png",
         tags: ["Canva", "UI/UX"],
         category: "design"
     },
     {
         title: "CubMu Platform",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Comprehensive research-driven UX design project with detailed user analysis to optimize platform experience and engagement.",
         image: "../assets/cubmu.png",
         tags: ["Research", "UI/UX", "Analysis"],
         category: "design"
     },
     {
         title: "Tax Education Game",
-        description: "Interactive HTML5 game designed to teach tax literacy to young children using engaging gameplay mechanics.",
+        description: "Interactive HTML5 game designed to teach tax literacy to young audiences through engaging gameplay and educational mechanics.",
         image: "../assets/taxracer.png",
         tags: ["HTML5", "JavaScript", "Game Dev"],
         category: "development"
     },
     {
         title: "Data Transformation",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Automation solution using IBM RPA and Python for data transformation, developed during a hackathon to address business requirements.",
         image: "../assets/data.png",
         tags: ["IBM RPA", "BRD", "Python", "Hackathon"],
         category: "development"
     },
     {
         title: "ConcertKey Platform",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Design thinking approach to creating a concert platform with extensive user research and high-fidelity prototyping in Framer.",
         image: "../assets/concert.png",
         tags: ["Design Thinking", "Research", "UI/UX", "Framer"],
         category: "design"
     },
     {
         title: "DietLite Application",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "User-centered design for a diet and nutrition application with focus on research-driven solutions and intuitive user experience.",
         image: "../assets/dietlite.png",
         tags: ["Research", "UI/UX", "User "],
         category: "design"
     },
     {
         title: "Social Media Mixue",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Creative content development for Mixue brand's social media presence using Canva, Photoshop, and Capcut for engaging visuals.",
         image: "../assets/mixue.png",
         tags: ["Canva", "Photoshop", "Capcut"],
         category: "design"
     },
     {
         title: "Poster Project Ministry",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Visual design project creating promotional posters for ministry events, combining effective messaging with compelling graphics.",
         image: "../assets/poster.png",
         tags: ["Canva", "Photoshop", "Capcut"],
         category: "design"
     },
     {
         title: "Logo",
-        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        description: "Brand identity project focusing on logo design and visual identity elements using professional design tools and creative direction.",
         image: "../assets/poster.png",
         tags: ["Canva", "Photoshop", "Capcut"],
         category: "design"

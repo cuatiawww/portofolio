@@ -195,6 +195,7 @@ body {
 
 .hero-content {
     position: relative;
+    margin  :10px;
     z-index: 2;
     opacity: 0;
     transform: translateY(20px);
