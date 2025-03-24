@@ -37,7 +37,7 @@ const projects = [
     {
         title: "Tax Education Game",
         description: "Interactive HTML5 game designed to teach tax literacy to young children using engaging gameplay mechanics.",
-        image: "../assets/hpp.png",
+        image: "../assets/taxracer.png",
         tags: ["HTML5", "JavaScript", "Game Dev"],
         category: "development"
     },
@@ -70,9 +70,16 @@ const projects = [
         category: "design"
     },
     {
-        title: "AOG Connecting Time",
+        title: "Poster Project Ministry",
         description: "Comprehensive user research and platform optimization project improving customer experience.",
-        image: "../assets/hpp.png",
+        image: "../assets/poster.png",
+        tags: ["Canva", "Photoshop", "Capcut"],
+        category: "design"
+    },
+    {
+        title: "Logo",
+        description: "Comprehensive user research and platform optimization project improving customer experience.",
+        image: "../assets/poster.png",
         tags: ["Canva", "Photoshop", "Capcut"],
         category: "design"
     }
