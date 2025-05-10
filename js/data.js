@@ -87,18 +87,6 @@ const projects = [
 
 const experiences = [
     {
-        role: "IT Developer",
-        company: "Tax Center Gunadarma",
-        period: "May 2024 - Present",
-        description: "Leading development of mobile applications and educational games, focusing on tax education and UMKM support.",
-        achievements: [
-            "Monitored and maintained Assistant Tax Center division operations",
-            "Developed and deployed HPP application for UMKM cost management",
-            "Created HTML5 game for tax education aimed at young children",
-            "Optimized workflow processes using project management tools"
-        ]
-    },
-    {
         role: "UI/UX Designer",
         company: "Rose of Sharon Church Jakarta",
         period: "Mar 2024 - Present",
